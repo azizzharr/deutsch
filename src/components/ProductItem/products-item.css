@@ -1,0 +1,21 @@
+.product-item {
+    box-shadow: 1px 1px 3px 1px lightgrey;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.buy-button, .delete-button {
+    float: right;
+}
+
+.buy-button,.delete-button {
+    float: right;
+}
+
+.delete-button {
+    margin-left: 10px;
+}
+.product-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

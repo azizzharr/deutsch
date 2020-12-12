@@ -10,7 +10,7 @@ class Center extends Component {
                     <div className="text-cent">
                         Германия с первого взгляда
                     </div>
-                    <img className="centerImg" src="https://wallpapertag.com/wallpaper/full/b/3/1/866645-neuschwanstein-castle-wallpaper-1920x1080-for-samsung.jpg" alt=""/>
+                    <img className="centerImg" src="https://wallpapertag.com/wallpaper/full/b/3/1/866645-neuschwanstein-castle-wallpaper-1920x1080-for-samsung.jpg" alt="вы не подкючили интернет"/>
 
                     <ul>
                            <li>
