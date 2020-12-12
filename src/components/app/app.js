@@ -41,14 +41,14 @@ class App extends Component {
                 <BrowserRouter>
                     <Header  user={this.state.user} logout={this.logout} />
                     <Switch>
-                        <Route exact path={'/'}>
+                        <Route exact path={'/home'}>
                             <Center/>
                             <PaginationPeople/>
                         </Route>
-                        <Route exact path={'/DeutschLernen'}>
+                        <Route exact path={'/link'}>
                             <DeutschLernen/>
                         </Route>
-                        <Route exact path={'/Fotos'}>
+                        <Route exact path={'/react'}>
                             <Fotos/>
                         </Route>
                         <Route exact path={'/Register'}>

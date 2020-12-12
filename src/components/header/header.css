@@ -1,7 +1,9 @@
 .bgColor{
     background-color: #AFEEEE;
 }
-.dark{
-    font-weight: bold;
+.Link{
+    padding-bottom: 11px;
+    font-size: 23px;
+    padding-left: 24px;
     color: black;
 }

@@ -12,12 +12,12 @@ class Header extends Component {
             <div>
                 <Navbar className="bgColor" expand="lg">
                     <Container>
-                    <Navbar.Brand to="/home">React-Bootstrap</Navbar.Brand>
+                    <Link className="Link" to="/home" >Home</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link className="ml-2 dark " to="/home">Home</Nav.Link>
-                            <Nav.Link className="ml-2 dark" to="/link">Link</Nav.Link>
+                            <Link className="ml-2 dark Link " to="/react">Fotos</Link>
+                            <Link className="ml-2 dark Link " to="/link">Link</Link>
                             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
