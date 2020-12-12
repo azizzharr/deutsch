@@ -41,7 +41,7 @@ class App extends Component {
                 <BrowserRouter>
                     <Header  user={this.state.user} logout={this.logout} />
                     <Switch>
-                        <Route exact path={'/home'}>
+                        <Route exact path={'/'}>
                             <Center/>
                             <PaginationPeople/>
                         </Route>
